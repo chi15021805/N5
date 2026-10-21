@@ -115,7 +115,7 @@ def save_data() -> None:
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="none", intents=intents)
 
 # =========================
 # HẸN GIỜ NGẮT KHỎI VOICE
